@@ -108,7 +108,7 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 
 | Component                           | Priority | Estimated Time | Time Invested | Actual Time |
 | ----------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                            |    H     |     3 hrs      |     3 hrs     |    3 hrs    |
+| Proposal                            |    H     |     3 hrs      |     4 hrs     |    4 hrs    |
 | Airtable setup                      |    H     |      1 hr      |     1 hr      |    1 hr     |
 | Set up components/pseudocode        |    H     |     2 hrs      |               |             |
 | Data population on Home Page        |    H     |      3hrs      |               |             |
@@ -124,15 +124,22 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Compile Reviews on Information Page |    L     |      4hrs      |               |             |
 | Allow for cover submissions         |    L     |      4hrs      |               |             |
 | Advanced CSS (Hovers/Animations)    |    M     |      3hrs      |               |             |
-
-| Total | H | 41 hrs | | |
+| Total                               |          |     41hrs      |     5 hrs     |    5 hrs    |
 
 ## SWOT Analysis
 
-### Strengths: I have a good understanding of GET, POST, and DELETE and I also mapped out my components in detail so I have a better understanding of what I'll need to make those components functional and reach MVP.
+### Strengths:
 
-### Weaknesses: For my PMVPs, I have to do additional research on airtable and how to compile all the reviews for one song as well as submit additional links without alreading the song information. I will also need to spend a lot of time on CSS to recreate my wireframe.
+I have a good understanding of GET, POST, and DELETE and I also mapped out my components in detail so I have a better understanding of what I'll need to make those components functional and reach MVP.
 
-### Opportunities: This is an opportunity to demonstrate how as a developer I am now able to create multiple components on a webpage and work with browser-router. Personally, I have enjoyed working with react much more than plain JS, and I am passionate about my topic so I am excited to build.
+### Weaknesses:
 
-### Threats: I can see myself moving on from MVP functionality directly onto PMVP functionality without finishing and polishing CSS and not having enough time at the end, which is a big threat. I will have to remind myself to make the website look good before moving onto next steps.
+For my PMVPs, I have to do additional research on airtable and how to compile all the reviews for one song as well as submit additional links without alreading the song information. I will also need to spend a lot of time on CSS to recreate my wireframe.
+
+### Opportunities:
+
+This is an opportunity to demonstrate how as a developer I am now able to create multiple components on a webpage and work with browser-router. Personally, I have enjoyed working with react much more than plain JS, and I am passionate about my topic so I am excited to build.
+
+### Threats:
+
+I can see myself moving on from MVP functionality directly onto PMVP functionality without finishing and polishing CSS and not having enough time at the end, which is a big threat. I will have to remind myself to make the website look good before moving onto next steps.
