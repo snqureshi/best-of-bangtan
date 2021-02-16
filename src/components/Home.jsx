@@ -9,16 +9,17 @@ export default function Home(props) {
           <div>
             <h3>{song.fields.title}</h3>
           </div>
-          {/* <div>
+          <div>
+            {/* https://support.google.com/youtube/answer/171780?hl=en */}
             <iframe
               width="560"
               height="315"
               src={song.fields.video}
               frameborder="0"
-              allow="autoplay; encrypted-media"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </div> */}
+          </div>
         </Link>
       ))}
     </div>
