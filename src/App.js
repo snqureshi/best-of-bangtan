@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { getAllSongs } from "./services/api-helper";
+import { useState, useEffect } from "react";
+import { Route } from "react-router-dom";
+import Header from "./components/Header.jsx";
+import Home from "./components/Home";
+// import Details from "./components/Details";
+// import Search from "./components/Search"
+// import Form from "./components/Form";
+
+import "./App.css";
 
 function App() {
+  const [songs, setSongs] = useState([]);
+  const [toggle, setToggle] = useState(false);
+
+  useEffect(() => {
+    const getSongInfo = async () => {
+      const response = await getAllSongs();
+      setSongs(response);
+    };
+    getSongInfo();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Route exact path="/">
+        <Home songs={songs} />
+      </Route>
     </div>
   );
 }
