@@ -8,9 +8,7 @@ Best-of-Bangtan is an application featuring Airtable and React build where the u
 
 The wireframes below show the homepage and information page for Best-of-Bangtan in mobile and desktop formats. In both instances you have a header with a nagivation links. On the mobile version, the navigation links will be displayed on a drop down menu, whereas in the desktop webpage, it will be displayed on interactive buttons. In both cases, on the homepage, the user will be able to view the title and video of a song and they will be able to click on a song title which will navigate to the corresponding information page populated with the title, artist, year of release, duration, stand-out lyrics, spotify link, youtube video, as well as the rating, review and author. In the mobile version, the information page will be displayed in rows where as in the desktop version, they will be displayed as both columns and rows.
 
-[Desktop Wireframe](https://i.imgur.com/egaaMk6.png)
-
-[Imgur](https://i.imgur.com/OhMTe6e.png)
+[Wireframes](https://i.imgur.com/AfUjs0F.png)
 
 ## Component Hierarchy
 
@@ -25,15 +23,15 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
       "id": "recqtNjLLdiuqTrob",
       "fields": {
         "author": "Shamma",
-        "year": "2013",
+        "year": 2013,
+        "Rating": 6,
         "spotify": "https://open.spotify.com/track/4frlkLwlnm58ejpNwWjxyl?si=522f4ea285b945a7",
-        "duration": "3:42",
+        "duration": 13320,
         "video": "https://www.youtube.com/watch?v=rBG5L7UsUxA",
         "lyric": "Rebel against this hell-like society, give your dream a special pardon",
         "title": "No More Dream ",
         "review": "Very strong message of not confirming to society's expectations of you.",
-        "performer": "BTS",
-        "Rating": "6"
+        "performer": "BTS"
       },
       "createdTime": "2021-02-14T20:40:21.000Z"
     },
@@ -41,15 +39,15 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
       "id": "recXrpxGwC2a1SsxP",
       "fields": {
         "author": "Llama",
-        "year": "2013",
+        "year": 2013,
+        "Rating": 8.5,
         "spotify": "https://open.spotify.com/track/1hehPTlSVIhHEvCkVoe4HX?si=2bd7891ee50149f9",
-        "duration": "3:30",
+        "duration": 12600,
         "video": "https://www.youtube.com/watch?v=r5GaAEHvHj0",
         "lyric": "In Seoul to the SKY, would the parents really be happy?",
         "title": "N.O",
         "review": "In-Seoul and SKY both refer to specific groups of universities in Korea, I thought the message about applying to universities just to please your pare...",
-        "performer": "BTS",
-        "Rating": "8.5"
+        "performer": "BTS"
       },
       "createdTime": "2021-02-14T20:40:21.000Z"
     },
@@ -57,15 +55,15 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
       "id": "reccqaAigUw0TNqLl",
       "fields": {
         "author": "Seokjin",
-        "year": "2014",
+        "year": 2014,
+        "Rating": 7,
         "spotify": "https://open.spotify.com/track/3CYqr8tC0Y3mrw80y6zqJC?si=ac3432d141c945ae",
+        "duration": 14340,
         "video": "https://www.youtube.com/watch?v=K5mGRX4gN2Y",
         "lyric": "In the 21st century, we are divided into exactly two classes Those who have, those who don’t have  Those who’re wearing shoes, those who don’t have Th...",
         "title": "Spine-Breaker",
         "review": "Loved how they talked about how class division was felt in school. Another problem associated with this padded jacket fever was extortion bullying. ",
-        "performer": "BTS",
-        "Rating": "7",
-        "duration": "3:59"
+        "performer": "BTS"
       },
       "createdTime": "2021-02-14T20:40:21.000Z"
     }
