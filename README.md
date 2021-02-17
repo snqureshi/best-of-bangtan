@@ -110,10 +110,10 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Airtable setup                      |    H     |      1 hr      |     1 hr      |    1 hr     |
 | Set up components/pseudocode        |    H     |     2 hrs      |     2 hrs     |    2 hrs    |
 | Data population on Home Page        |    H     |      3hrs      |     1 hr      |    1 hr     |
-| Data population on Information Page |    H     |      3hrs      |               |             |
-| Create & Render Form on Submit page |    H     |      2hrs      |               |             |
-| Search by year page                 |    H     |      3hrs      |               |             |
-| Nav Bar/Link & Route properly       |    H     |      3hrs      |               |             |
+| Data population on Information Page |    H     |      3hrs      |     1 hr      |    1 hr     |
+| Create & Render Form on Submit page |    H     |      2hrs      |     2 hrs     |    2 hrs    |
+| Search by year page                 |    H     |      3hrs      |     1 hr      |    1 hr     |
+| Nav Bar/Link & Route properly       |    H     |      3hrs      |     1 hr      |    1 hr     |
 | Delete Button on Homepage           |    M     |      1 hr      |               |             |
 | Homepage Component CSS              |    H     |      2hrs      |               |             |
 | Information-page Component CSS      |    H     |      3hrs      |               |             |
