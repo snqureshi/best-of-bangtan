@@ -95,7 +95,7 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | ------ | ----------------------------------------------------------------- | ---------- |
 | Feb 16 | Proposal Approval/ Airtable Setup/ Components Creation/Psuedocode | Complete   |
 | Feb 17 | Get & Post Song Reviews from Airtable                             | Complete   |
-| Feb 18 | Filter songs by year/ Setup Routes & Links                        | Incomplete |
+| Feb 18 | Filter songs by title/ Setup Routes & Links                       | Complete   |
 | Feb 19 | Work on CSS Components to match wireframes/ Media queries         | Incomplete |
 | Feb 20 | Delete posts/ Compile all reviews of one song together            | Incomplete |
 | Feb 21 | Feb 20th continued/ Submit cover links in form                    | Incomplete |
@@ -104,25 +104,25 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 
 ## Timeframes
 
-| Component                           | Priority | Estimated Time | Time Invested | Actual Time |
-| ----------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                            |    H     |     3 hrs      |     4 hrs     |    4 hrs    |
-| Airtable setup                      |    H     |      1 hr      |     1 hr      |    1 hr     |
-| Set up components/pseudocode        |    H     |     2 hrs      |     2 hrs     |    2 hrs    |
-| Data population on Home Page        |    H     |      3hrs      |     1 hr      |    1 hr     |
-| Data population on Information Page |    H     |      3hrs      |     1 hr      |    1 hr     |
-| Create & Render Form on Submit page |    H     |      2hrs      |     2 hrs     |    2 hrs    |
-| Search by Title page                |    H     |      3hrs      |     2 hr      |    2 hr     |
-| Nav Bar/Link & Route properly       |    H     |      3hrs      |     1 hr      |    1 hr     |
-| Delete Button on Homepage           |    M     |      1 hr      |               |             |
-| Homepage Component CSS              |    H     |      2hrs      |               |             |
-| Information-page Component CSS      |    H     |      3hrs      |               |             |
-| Search Component CSS                |    H     |      2hrs      |               |             |
-| Form Component CSS                  |    H     |      2hrs      |               |             |
-| Compile Reviews on Information Page |    L     |      4hrs      |               |             |
-| Allow for cover submissions         |    L     |      4hrs      |               |             |
-| Advanced CSS (Hovers/Animations)    |    M     |      3hrs      |               |             |
-| Total                               |          |     41hrs      |     5 hrs     |    5 hrs    |
+| Component                                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ----------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Proposal                                  |    H     |     3 hrs      |     4 hrs     |    4 hrs    |
+| Airtable setup                            |    H     |      1 hr      |     1 hr      |    1 hr     |
+| Set up components/pseudocode              |    H     |     2 hrs      |     2 hrs     |    2 hrs    |
+| Data population on Home Page              |    H     |      3hrs      |     1 hr      |    1 hr     |
+| Data population on Information Page       |    H     |      3hrs      |     1 hr      |    1 hr     |
+| Create & Render Form on Submit page       |    H     |      2hrs      |     2 hrs     |    2 hrs    |
+| Search by Title page                      |    H     |      3hrs      |     2 hr      |    2 hr     |
+| Nav Bar/Link & Route properly/Nav Bar CSS |    H     |      3hrs      |     3 hrs     |    3 hrs    |
+| Delete Button on Homepage                 |    M     |      1 hr      |               |             |
+| Homepage Component CSS                    |    H     |      2hrs      |               |             |
+| Information-page Component CSS            |    H     |      3hrs      |               |             |
+| Search Component CSS                      |    H     |      2hrs      |               |             |
+| Form Component CSS                        |    H     |      2hrs      |               |             |
+| Compile Reviews on Information Page       |    L     |      4hrs      |               |             |
+| Allow for cover submissions               |    L     |      4hrs      |               |             |
+| Advanced CSS (Hovers/Animations)          |    M     |      3hrs      |               |             |
+| Total                                     |          |     41hrs      |     5 hrs     |    5 hrs    |
 
 ## SWOT Analysis
 

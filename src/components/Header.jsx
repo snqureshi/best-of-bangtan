@@ -3,6 +3,7 @@ import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
 
 export default function Header() {
   return (
+    //https://dev.to/yunweneric/implementing-react-routes-part-2-link-vs-navlink-5d6e
     <>
       <Nav>
         <NavLink to="/">

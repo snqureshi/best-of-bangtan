@@ -2,17 +2,21 @@ import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 
+//https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
+//https://styled-components.com/docs/basics#coming-from-css
+
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw-1000px) / 2);
+  padding: 1rem;
   z-index: 10;
 `;
 export const NavLink = styled(Link)`
   color: #fff;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
@@ -34,7 +38,7 @@ export const Bars = styled(FaBars)`
     top: 0;
     right: 0;
     transform: translate(-100%, 75%);
-    font-size: 1.8 rem;
+    font-size: 2.8 rem;
     cursor: pointer;
   }
 `;
