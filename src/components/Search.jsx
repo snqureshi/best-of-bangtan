@@ -4,21 +4,22 @@ import "./Search.css";
 
 //Worked on this code during typeahead workshop
 const Search = (props) => {
-  const [year, setYear] = useState(0);
-  const filteredYears = props.songs.filter(
-    (song) => song.fields.year.includes === year
+  const [title, setTitle] = useState("");
+  const filteredSongs = props.songs.filter((song) =>
+    song.fields.title.toLowerCase().includes(title.toLowerCase())
   );
 
   return (
     <div className="search-bar">
       <input
-        type="number"
-        value={year}
-        onChange={(e) => setYear(e.target.value)}
+        type="text"
+        placeholder="Search By Song Title"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
       />
       <div className="typeahead-results">
-        {year &&
-          filteredYears.map((song) => <p key={song.id}>{song.fields.year}</p>)}
+        {title &&
+          filteredSongs.map((song) => <p key={song.id}>{song.fields.title}</p>)}
       </div>
     </div>
   );

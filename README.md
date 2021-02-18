@@ -94,7 +94,7 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Day    | Deliverable                                                       | Status     |
 | ------ | ----------------------------------------------------------------- | ---------- |
 | Feb 16 | Proposal Approval/ Airtable Setup/ Components Creation/Psuedocode | Complete   |
-| Feb 17 | Get & Post Song Reviews from Airtable                             | Incomplete |
+| Feb 17 | Get & Post Song Reviews from Airtable                             | Complete   |
 | Feb 18 | Filter songs by year/ Setup Routes & Links                        | Incomplete |
 | Feb 19 | Work on CSS Components to match wireframes/ Media queries         | Incomplete |
 | Feb 20 | Delete posts/ Compile all reviews of one song together            | Incomplete |
@@ -112,7 +112,7 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Data population on Home Page        |    H     |      3hrs      |     1 hr      |    1 hr     |
 | Data population on Information Page |    H     |      3hrs      |     1 hr      |    1 hr     |
 | Create & Render Form on Submit page |    H     |      2hrs      |     2 hrs     |    2 hrs    |
-| Search by year page                 |    H     |      3hrs      |     1 hr      |    1 hr     |
+| Search by Title page                |    H     |      3hrs      |     2 hr      |    2 hr     |
 | Nav Bar/Link & Route properly       |    H     |      3hrs      |     1 hr      |    1 hr     |
 | Delete Button on Homepage           |    M     |      1 hr      |               |             |
 | Homepage Component CSS              |    H     |      2hrs      |               |             |

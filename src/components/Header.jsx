@@ -1,15 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
 
 export default function Header() {
   return (
-    <div>
-      <nav>
-        <h1>BEST OF BANGTAN</h1>
-        <Link to="/">HOME</Link>
-        <Link to="/songs/new">Submit Your Favorite</Link>
-        <Link to="/search">Search By Year</Link>
-      </nav>
-    </div>
+    <>
+      <Nav>
+        <NavLink to="/">
+          <h1>BEST OF BANGTAN</h1>
+        </NavLink>
+        <Bars />
+        <NavMenu>
+          <NavLink to="/" activeStyle>
+            Home
+          </NavLink>
+          <NavLink to="/search" activeStyle>
+            Search By Title
+          </NavLink>
+          <NavLink to="/songs/new" activeStyle>
+            Submit Your Favorite
+          </NavLink>
+        </NavMenu>
+      </Nav>
+    </>
   );
 }
