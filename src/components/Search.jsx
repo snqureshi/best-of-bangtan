@@ -16,19 +16,20 @@ const Search = (props) => {
       <form className="search-bar">
         <label htmlFor="title">Search By Song Title:</label>
         <input
+          className="search-box"
           type="text"
           placeholder="Song Title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
       </form>
-      <div>
+      <div className="results-container">
         {filteredSongs.map((song) => (
           <Link key={song.id} to={`/songs/${song.id}`}>
-            <div>
+            <div className="title">
               <h3>{song.fields.title}</h3>
             </div>
-            <div>
+            <div className="video">
               {/* https://support.google.com/youtube/answer/171780?hl=en */}
               <iframe
                 width="560"

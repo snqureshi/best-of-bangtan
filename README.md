@@ -114,8 +114,8 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Create & Render Form on Submit page       |    H     |      2hrs      |     2 hrs     |    2 hrs    |
 | Search by Title page                      |    H     |      3hrs      |     2 hr      |    2 hr     |
 | Nav Bar/Link & Route properly/Nav Bar CSS |    H     |      3hrs      |     3 hrs     |    3 hrs    |
-| Delete Button on Homepage                 |    M     |      1 hr      |               |             |
-| Homepage Component CSS                    |    H     |      2hrs      |               |             |
+| Delete Button on Homepage                 |    M     |      1 hr      |    1.5hrs     |   1.5hrs    |
+| Homepage Component CSS                    |    H     |      2hrs      |     1 hr      |    1 hr     |
 | Information-page Component CSS            |    H     |      3hrs      |               |             |
 | Search Component CSS                      |    H     |      2hrs      |               |             |
 | Form Component CSS                        |    H     |      2hrs      |               |             |

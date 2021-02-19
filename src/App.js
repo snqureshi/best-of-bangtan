@@ -28,7 +28,7 @@ function App() {
         <Home songs={songs} />
       </Route>
       <Route path="/songs/:id">
-        <Details songs={songs} />
+        <Details songs={songs} setToggle={setToggle} />
       </Route>
       <Route path="/songs/new">
         <Form songs={songs} setToggle={setToggle} />

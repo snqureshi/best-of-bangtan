@@ -1,0 +1,73 @@
+.form-title {
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 50px 10px 50px;
+  padding: 20px;
+  background-color: #b3b7ee;
+}
+
+.form {
+  color: white;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: end;
+  background-color: rgb(179, 183, 238, 0.77);
+}
+
+.title-container,
+.artist-container,
+.year-container,
+.duration-container,
+.video-container,
+.spotify-container,
+.lyric-container,
+.review-container,
+.rating-container,
+.author-container {
+  justify-content: space-between;
+  background-color: rgb(179, 183, 238, 0.77);
+}
+
+.title-label,
+.artist,
+.year,
+.duration,
+.video,
+.spotify,
+.lyric,
+.review,
+.rating,
+.author {
+  display: flex;
+  align-self: start;
+}
+
+#title,
+#artist,
+#year,
+#duration,
+#video,
+#spotify,
+#lyric,
+#review,
+#rating,
+#author {
+  background-color: white;
+  align-items: flex-end;
+  margin-left: 300px;
+}
+
+.form-button {
+  background-color: #1f2134;
+  color: white;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

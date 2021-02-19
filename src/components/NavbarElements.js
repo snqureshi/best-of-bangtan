@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa";
 //https://styled-components.com/docs/basics#coming-from-css
 
 export const Nav = styled.nav`
-  background: #000;
+  background: rgb(39, 38, 64);
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,8 @@ export const Nav = styled.nav`
   z-index: 10;
 `;
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #e0fbfc;
+  background: rgb(39, 38, 64);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,15 +23,11 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-
-  &.active {
-    color: #15cdfc;
-  }
 `;
 
 export const Bars = styled(FaBars)`
   display: none;
-  color: #fff;
+  color: #e0fbfc;
 
   @media screen and (max-width: 768px) {
     display: block;
@@ -48,7 +45,7 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 `;

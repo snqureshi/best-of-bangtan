@@ -1,10 +1,12 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { deleteSong } from "../services/api-helper";
 
 export default function Details(props) {
   const [song, setSong] = useState({});
   const params = useParams();
+  const history = useHistory();
 
   useEffect(() => {
     const exactSong = props.songs.find((song) => {
@@ -12,6 +14,12 @@ export default function Details(props) {
     });
     setSong(exactSong);
   }, [params.id, props.songs]);
+
+  const handleDelete = async () => {
+    await deleteSong(song.id);
+    props.setToggle((curr) => !curr);
+    history.push("/");
+  };
 
   return (
     <div>
@@ -51,6 +59,7 @@ export default function Details(props) {
             <h3>Overall Rating(out of 10): {song.fields.rating}</h3>
             <h3>Review By: {song.fields.author}</h3>
           </div>
+          <button onClick={handleDelete}>Delete Me!</button>
         </>
       ) : null}
     </div>

@@ -14,3 +14,7 @@ export const addNewSong = async (body) => {
   const response = await axios.post(baseUrl, body, config);
   return response;
 };
+export async function deleteSong(id) {
+  const urlToDelete = `${baseUrl}/${id}`;
+  await axios.delete(urlToDelete, config);
+}
