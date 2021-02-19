@@ -7,7 +7,7 @@ export default function Home(props) {
     <div className="results-container">
       {props.songs.map((song) => (
         <Link key={song.id} to={`/songs/${song.id}`}>
-          <div classname="ind-result">
+          <div className="ind-result">
             <div className="title">
               <h3>{song.fields.title}</h3>
             </div>

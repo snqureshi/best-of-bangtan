@@ -37,9 +37,9 @@ export default function Details(props) {
                 width="560"
                 height="315"
                 src={song.fields.video}
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="details-right">
@@ -53,7 +53,7 @@ export default function Details(props) {
                   src={song.fields.spotify}
                   width="220"
                   height="80"
-                  frameborder="0"
+                  frameBorder="0"
                   allowtransparency="true"
                   allow="encrypted-media"
                 ></iframe>
@@ -65,7 +65,7 @@ export default function Details(props) {
               <h3>Overall Rating(out of 10): {song.fields.rating}</h3>
               <h3>Review By: {song.fields.author}</h3>
             </div>
-            <button classname="details-button" onClick={handleDelete}>
+            <button className="details-button" onClick={handleDelete}>
               Delete Me!
             </button>
           </div>

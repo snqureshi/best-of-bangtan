@@ -79,12 +79,12 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 - Home page with videos & clickable titles that route to information page
 - Information page rendering title, artist, year of release, duration, stand-out lyrics, spotify link, youtube video, as well as the rating, review and author.
 - Use forms to submit new favorite songs and update Airtable.
-- Search page to find songs by year
+- Search page to find songs by title
 - Navigation bar with clickable links that route to their respective pages (drop down menu for mobile viewing)
 
 #### PostMVP
 
-- Delete posts from the homepage
+- Delete posts from the details page
 - if multiple reviews are available for one song, display all reviews fav lyrics, ratings, and authors in the information page instead of having multiple information page for the same song.
 - Allow users to submit links to covers of the song titles on the form page
 - Advanced CSS to improve user experience (hovers, animations)
@@ -116,13 +116,13 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Nav Bar/Link & Route properly/Nav Bar CSS |    H     |      3hrs      |     3 hrs     |    3 hrs    |
 | Delete Button on Homepage                 |    M     |      1 hr      |    1.5hrs     |   1.5hrs    |
 | Homepage Component CSS                    |    H     |      2hrs      |     1 hr      |    1 hr     |
-| Information-page Component CSS            |    H     |      3hrs      |               |             |
-| Search Component CSS                      |    H     |      2hrs      |               |             |
-| Form Component CSS                        |    H     |      2hrs      |               |             |
+| Information-page Component CSS            |    H     |      3hrs      |     1 hr      |    1 hr     |
+| Search Component CSS                      |    H     |      2hrs      |    0.5 hrs    |   0.5 hrs   |
+| Form Component CSS                        |    H     |      2hrs      |     3 hrs     |    3hrs     |
 | Compile Reviews on Information Page       |    L     |      4hrs      |               |             |
 | Allow for cover submissions               |    L     |      4hrs      |               |             |
 | Advanced CSS (Hovers/Animations)          |    M     |      3hrs      |               |             |
-| Total                                     |          |     41hrs      |     5 hrs     |    5 hrs    |
+| Total                                     |          |     41hrs      |    23 hrs     |   23 hrs    |
 
 ## SWOT Analysis
 

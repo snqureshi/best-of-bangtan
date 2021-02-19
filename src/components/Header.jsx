@@ -11,15 +11,9 @@ export default function Header() {
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/" activeStyle>
-            Home
-          </NavLink>
-          <NavLink to="/search" activeStyle>
-            Search By Title
-          </NavLink>
-          <NavLink to="/songs/new" activeStyle>
-            Submit Your Favorite
-          </NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/search">Search By Title</NavLink>
+          <NavLink to="/songs/new">Submit Your Favorite</NavLink>
         </NavMenu>
       </Nav>
     </>
