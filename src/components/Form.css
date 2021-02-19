@@ -7,7 +7,7 @@
   background-color: #b3b7ee;
 }
 
-.form {
+.form-container {
   color: white;
   max-width: 1100px;
   margin-left: auto;
@@ -15,8 +15,8 @@
   padding: 1em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-items: end;
   background-color: rgb(179, 183, 238, 0.77);
 }
 
@@ -30,8 +30,10 @@
 .review-container,
 .rating-container,
 .author-container {
+  display: flex;
   justify-content: space-between;
   background-color: rgb(179, 183, 238, 0.77);
+  align-items: center;
 }
 
 .title-label,
@@ -44,8 +46,8 @@
 .review,
 .rating,
 .author {
-  display: flex;
-  align-self: start;
+  height: 23px;
+  width: 200px;
 }
 
 #title,
@@ -54,20 +56,25 @@
 #duration,
 #video,
 #spotify,
-#lyric,
-#review,
 #rating,
 #author {
   background-color: white;
+  /* margin-left: 300px; */
+  height: 23px;
+  width: 200px;
+}
+
+#lyric,
+#review {
+  background-color: white;
   align-items: flex-end;
-  margin-left: 300px;
+  height: 80px;
+  width: 200px;
 }
 
 .form-button {
   background-color: #1f2134;
   color: white;
   width: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }

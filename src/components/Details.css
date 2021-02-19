@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+
+.details-full {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas:
+    "T T T T T"
+    "V V V I I"
+    "V V V I I"
+    "V V V I I"
+    "R R R R R"
+    "R R R R R"
+    "R R R R R"
+    "D D D D D";
+}
+
+.details-title {
+  text-align: center;
+  display: grid;
+  grid-area: T;
+}
+
+.details-video {
+  display: flex;
+  justify-content: center;
+  grid-area: V;
+}
+
+.details-right {
+  display: grid;
+  grid-area: I;
+}
+
+.details-review {
+  display: grid;
+  grid-area: R;
+}
+
+.details-button {
+  display: grid;
+  grid-area: D;
+}

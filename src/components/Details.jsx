@@ -2,6 +2,7 @@ import React from "react";
 import { useHistory, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { deleteSong } from "../services/api-helper";
+import "./Details.css";
 
 export default function Details(props) {
   const [song, setSong] = useState({});
@@ -26,40 +27,48 @@ export default function Details(props) {
       {song && song.fields ? (
         <>
           <h1>SONG INFORMATION PAGE</h1>
-          <h2>{song.fields.title}</h2>
-          <div className="details-video">
-            {/* https://support.google.com/youtube/answer/171780?hl=en */}
-            <iframe
-              width="560"
-              height="315"
-              src={song.fields.video}
-              frameborder="0"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div className="info-container">
-            <h3>{song.fields.artist}</h3>
-            <h4>{song.fields.year}</h4>
-            <h4>{song.fields.duration}</h4>
-            <div className="details-spotify">
+          <div className="details-full">
+            <div className="details-title">
+              <h2>Song Title:{song.fields.title}</h2>
+            </div>
+            <div className="details-video">
+              {/* https://support.google.com/youtube/answer/171780?hl=en */}
               <iframe
-                src={song.fields.spotify}
-                width="220"
-                height="80"
+                width="560"
+                height="315"
+                src={song.fields.video}
                 frameborder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
               ></iframe>
             </div>
+            <div className="details-right">
+              <div className="details-text">
+                <h3>Artist: {song.fields.artist}</h3>
+                <h4>Year of Release: {song.fields.year}</h4>
+                <h4>Duration: {song.fields.duration}</h4>
+              </div>
+              <div className="details-spotify">
+                <iframe
+                  src={song.fields.spotify}
+                  width="220"
+                  height="80"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
+              </div>
+            </div>
+            <div className="details-review">
+              <h3>Favorite Lyrics: {song.fields.lyric}</h3>
+              <h3>Overall Review: {song.fields.review}</h3>
+              <h3>Overall Rating(out of 10): {song.fields.rating}</h3>
+              <h3>Review By: {song.fields.author}</h3>
+            </div>
+            <button classname="details-button" onClick={handleDelete}>
+              Delete Me!
+            </button>
           </div>
-          <div className="review-container">
-            <h3>Favorite Lyrics: {song.fields.lyric}</h3>
-            <h3>Overall Review: {song.fields.review}</h3>
-            <h3>Overall Rating(out of 10): {song.fields.rating}</h3>
-            <h3>Review By: {song.fields.author}</h3>
-          </div>
-          <button onClick={handleDelete}>Delete Me!</button>
         </>
       ) : null}
     </div>
