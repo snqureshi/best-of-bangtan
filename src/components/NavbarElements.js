@@ -29,13 +29,13 @@ export const Bars = styled(FaBars)`
   display: none;
   color: #e0fbfc;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 400px) {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
     transform: translate(-100%, 75%);
-    font-size: 2.8 rem;
+    font-size: 5 rem;
     cursor: pointer;
   }
 `;
