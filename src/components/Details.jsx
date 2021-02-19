@@ -23,7 +23,7 @@ export default function Details(props) {
   };
 
   return (
-    <div>
+    <div className="details-container">
       {song && song.fields ? (
         <>
           <h1>SONG INFORMATION PAGE</h1>

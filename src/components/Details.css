@@ -1,3 +1,7 @@
+.details-container {
+  background-color: #eeeffb;
+}
+
 h1 {
   text-align: center;
 }
@@ -21,29 +25,35 @@ h1 {
   text-align: center;
   display: grid;
   grid-area: T;
-  border: 1px solid #414066;
+  background-color: #272640;
+  color: #b4b8ee;
+  margin-bottom: 10px;
 }
 
 .details-video {
   display: flex;
   justify-content: center;
   grid-area: V;
-  border: 1px solid #414066;
+  background-color: #272640;
+  padding: 20px 0px;
 }
 
 .details-right {
   display: grid;
   grid-area: I;
-  border: 1px solid #414066;
+  background-color: #272640;
+  color: #b4b8ee;
+  height: 355px;
 }
 
 .details-review {
   display: grid;
   grid-area: R;
   width: 1000px;
-  border: 1px solid #414066;
   padding: 50px;
   text-align: left;
+  background-color: #b4b8ee;
+  margin-top: 15px;
 }
 
 .details-button {
