@@ -21,25 +21,33 @@ h1 {
   text-align: center;
   display: grid;
   grid-area: T;
+  border: 1px solid #414066;
 }
 
 .details-video {
   display: flex;
   justify-content: center;
   grid-area: V;
+  border: 1px solid #414066;
 }
 
 .details-right {
   display: grid;
   grid-area: I;
+  border: 1px solid #414066;
 }
 
 .details-review {
   display: grid;
   grid-area: R;
+  width: 1000px;
+  border: 1px solid #414066;
+  padding: 50px;
+  text-align: left;
 }
 
 .details-button {
   display: grid;
   grid-area: D;
+  margin: 10px 500px;
 }

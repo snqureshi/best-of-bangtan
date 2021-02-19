@@ -23,21 +23,21 @@ const Search = (props) => {
           onChange={(e) => setTitle(e.target.value)}
         />
       </form>
-      <div className="results-container">
+      <div className="search-results-container">
         {filteredSongs.map((song) => (
           <Link key={song.id} to={`/songs/${song.id}`}>
-            <div className="title">
+            <div className="search-title">
               <h3>{song.fields.title}</h3>
             </div>
-            <div className="video">
+            <div className="search-video">
               {/* https://support.google.com/youtube/answer/171780?hl=en */}
               <iframe
                 width="560"
                 height="315"
                 src={song.fields.video}
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </Link>

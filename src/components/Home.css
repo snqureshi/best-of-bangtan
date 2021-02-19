@@ -1,4 +1,4 @@
-.results-container {
+.home-results-container {
   display: grid;
   grid-template-areas:
     "T"
@@ -9,7 +9,7 @@
   background-color: #000807;
 }
 
-.title {
+.home-title {
   grid-area: T;
   margin: 30px 0px 10px 0px;
   text-align: center;
@@ -21,6 +21,6 @@ a:link {
   text-decoration: none;
 }
 
-.video {
+.home-video {
   grid-area: V;
 }

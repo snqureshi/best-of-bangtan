@@ -1,9 +1,9 @@
 .search-bar {
   color: white;
+  background-color: #9395d3;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000807;
   padding-top: 50px;
 }
 
@@ -16,7 +16,7 @@
   border-radius: 10px;
 }
 
-.results-container {
+.search-results-container {
   display: grid;
   grid-template-areas:
     "T"
@@ -24,20 +24,21 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  background-color: #9395d3;
 }
 
-.title {
+.search-title {
   grid-area: T;
   margin: 30px 0px 10px 0px;
   text-align: center;
   font-size: 1.25rem;
-  color: #b3b7ee;
+  color: #414066;
 }
 
 a:link {
   text-decoration: none;
 }
 
-.video {
+.search-video {
   grid-area: V;
 }
