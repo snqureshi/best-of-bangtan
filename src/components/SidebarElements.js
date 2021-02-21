@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 
 export const SidebarContainer = styled.div`
   position: fixed;
-  width: 100%
-  height: 100%
+  width: 100%;
+  height: 100%;
   background: #0d0d0d;
-  display:grid;
-  align-items: center
-  top:0;
-  left:0;
+  display: grid;
+  align-items: center;
+  top: 0;
+  left: 0;
   transition: 0.3s ease-in-out;
-  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0%")}
-  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")}
+  opacity: ${(props) => (props.isOpen ? "100%" : "0%")};
+  top: ${(props) => (props.isOpen ? "0" : "-100%")};
   z-index: 999;
 `;
 
@@ -44,7 +44,7 @@ export const SidebarMenu = styled.ul`
 
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(4, 60px);
-  } ;
+  }
 `;
 
 export const SidebarLink = styled(Link)`
@@ -55,10 +55,10 @@ export const SidebarLink = styled(Link)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: #fff
+  color: #fff;
   cursor: pointer;
 
-  &:hover{
+  &:hover {
     color: #01bf71;
     transition: 0.2s ease-in-out;
   }
