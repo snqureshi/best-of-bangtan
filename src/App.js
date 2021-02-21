@@ -1,7 +1,8 @@
 import { getAllSongs } from "./services/api-helper";
 import { useState, useEffect } from "react";
 import { Route } from "react-router-dom";
-import Header from "./components/Header.jsx";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 import Home from "./components/Home";
 import Details from "./components/Details";
 import Search from "./components/Search";
@@ -12,6 +13,11 @@ import "./App.css";
 function App() {
   const [songs, setSongs] = useState([]);
   const [toggle, setToggle] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
+  };
 
   useEffect(() => {
     const getSongInfo = async () => {
@@ -23,7 +29,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header toggleNav={toggleNav} />
+      {/* <Burger open={open} setOpen={setOpen} /> */}
+      <Sidebar isOpen={isOpen} toggleNav={toggleNav} />
       <Route exact path="/">
         <Home songs={songs} />
       </Route>
