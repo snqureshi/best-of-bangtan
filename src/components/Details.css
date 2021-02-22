@@ -24,7 +24,7 @@
 
 .details-title {
   text-align: center;
-  display: grid;
+  /* display: grid; */
   grid-area: T;
   background-color: #272640;
   color: #ffffff;
@@ -52,6 +52,7 @@
   height: 355px;
   font-family: "Yeseva One", cursive;
   font-size: 16px;
+  align-items: center;
 }
 
 .details-review {
@@ -68,7 +69,8 @@
 .details-button {
   display: grid;
   grid-area: D;
-  margin: 25px 450px;
+  margin: 0 auto;
+  width: 75px;
   background: rgb(39, 38, 64);
   color: #eeeffb;
   font-family: "Abril Fatface", cursive;
@@ -82,35 +84,39 @@
   transition: 0.2s ease-in-out;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 400px) {
   iframe {
     width: 280px;
     height: 158px;
   }
   .details-container {
     background-color: #dee2ff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
   }
   .details-full {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-  }
-  .details-title {
-    height: 200px;
+    display: block;
   }
 
   .details-right {
     color: white;
     font-family: "Yeseva One", cursive;
     font-size: 16px;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .details-spotify iframe {
+    justify-self: center;
+    align-self: center;
+    width: 280px;
+    height: 80px;
   }
 
   .details-review {
+    margin: 0 auto;
+    padding: 25px;
+  }
+
+  .details-button {
+    margin-top: 10px;
   }
 }

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-//Only show if sidebar is clicked
+//Only show if sidebar is toggled true
 
 export const SidebarContainer = styled.div`
   position: fixed;
@@ -42,7 +42,7 @@ export const SidebarMenu = styled.ul`
   grid-template-columns: repeat (4, 80px);
   text-align: center;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 400px) {
     grid-template-rows: repeat(4, 60px);
   }
 `;

@@ -104,7 +104,7 @@
   transition: 0.2s ease-in-out;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .form-container {
     width: fit-content;
   }
