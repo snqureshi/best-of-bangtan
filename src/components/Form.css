@@ -15,7 +15,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Staatliches";
   font-size: 30px;
+  text-shadow: 2px 2px 5px #3a0ca3;
 }
 
 .form-container {
@@ -91,4 +93,50 @@
   width: 200px;
   margin: 10px 50px;
   padding: 10px 5px;
+}
+
+@media only screen and (max-width: 375px) {
+  .form-container {
+    width: fit-content;
+  }
+
+  .form-title {
+    font-size: 25px;
+  }
+
+  .form-container {
+    width: fit-content;
+    flex-direction: column;
+  }
+
+  .title-container,
+  .artist-container,
+  .year-container,
+  .duration-container,
+  .video-container,
+  .spotify-container,
+  .lyric-container,
+  .review-container,
+  .rating-container,
+  .author-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #title,
+  #artist,
+  #year,
+  #duration,
+  #video,
+  #spotify,
+  #rating,
+  #author,
+  #lyric,
+  #review {
+    background-color: white;
+    justify-self: center;
+    align-items: center;
+    margin-left: 0px;
+  }
 }
