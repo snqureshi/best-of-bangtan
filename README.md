@@ -80,7 +80,7 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 - Information page rendering title, artist, year of release, duration, stand-out lyrics, spotify link, youtube video, as well as the rating, review and author.
 - Use forms to submit new favorite songs and update Airtable.
 - Search page to find songs by title
-- Navigation bar with clickable links that route to their respective pages (drop down menu for mobile viewing)
+- Navigation bar with clickable links that route to their respective pages (hamburger menu for mobile viewing)
 
 #### PostMVP
 
@@ -96,8 +96,8 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Feb 16 | Proposal Approval/ Airtable Setup/ Components Creation/Psuedocode | Complete   |
 | Feb 17 | Get & Post Song Reviews from Airtable                             | Complete   |
 | Feb 18 | Filter songs by title/ Setup Routes & Links                       | Complete   |
-| Feb 19 | Work on CSS Components to match wireframes/ Media queries         | Incomplete |
-| Feb 20 | Delete posts/ Compile all reviews of one song together            | Incomplete |
+| Feb 19 | Work on CSS Components to match wireframes/ Media queries         | Complete   |
+| Feb 20 | Delete posts/ Compile all reviews of one song together            | Complete   |
 | Feb 21 | Feb 20th continued/ Submit cover links in form                    | Incomplete |
 | Feb 22 | Advanced CSS                                                      | Incomplete |
 | Feb 23 | Presentations                                                     | Incomplete |
@@ -107,7 +107,7 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Component                                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ----------------------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                                  |    H     |     3 hrs      |     4 hrs     |    4 hrs    |
-| Airtable setup                            |    H     |      1 hr      |     1 hr      |    1 hr     |
+| Airtable setup                            |    H     |      1 hr      |     2 hrs     |    2 hrs    |
 | Set up components/pseudocode              |    H     |     2 hrs      |     2 hrs     |    2 hrs    |
 | Data population on Home Page              |    H     |      3hrs      |     1 hr      |    1 hr     |
 | Data population on Information Page       |    H     |      3hrs      |     1 hr      |    1 hr     |
@@ -121,7 +121,7 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Form Component CSS                        |    H     |      2hrs      |     3 hrs     |    3hrs     |
 | Compile Reviews on Information Page       |    L     |      4hrs      |               |             |
 | Allow for cover submissions               |    L     |      4hrs      |               |             |
-| Advanced CSS (Hovers/Animations)          |    M     |      3hrs      |               |             |
+| Advanced CSS (Hovers/Animations)          |    M     |      3hrs      |     4hrs      |    4hrs     |
 | Total                                     |          |     41hrs      |    23 hrs     |   23 hrs    |
 
 ## SWOT Analysis

@@ -18,7 +18,7 @@ export default function Header({ toggleNav }) {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            <h1>BEST OF BANGTAN</h1>
+            <h1>Best Of Bangtan</h1>
           </NavLogo>
           <MobileIcon onClick={toggleNav}>
             <FaBars />

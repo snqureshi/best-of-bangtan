@@ -60,8 +60,8 @@ export default function Details(props) {
               </div>
             </div>
             <div className="details-review">
-              <h3>Review By:{song.fields.author}</h3>
-              <h3>
+              <h3>{song.fields.review_summary}</h3>
+              {/* <h3>
                 Favorite Lyrics: <br />
                 {song.fields.lyric}
               </h3>
@@ -71,7 +71,7 @@ export default function Details(props) {
               <h3>
                 Overall Rating(out of 10): <br />
                 {song.fields.rating}
-              </h3>
+              </h3> */}
             </div>
             <button className="details-button" onClick={handleDelete}>
               Delete Me!

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
 
 //https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
 //https://styled-components.com/docs/basics#coming-from-css
@@ -10,13 +9,12 @@ export const Nav = styled.nav`
   background: rgb(39, 38, 64);
   height: 80px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   font-size: 1rem;
   padding: 1rem;
   z-index: 10;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 420px) {
     transition: 0.8s all ease;
   }
 `;
@@ -25,20 +23,21 @@ export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 80px;
-  z-index:1;
-  width= 100%;
+  z-index: 1;
   padding= 0 24px;
-  max-width=1100px;
+  width: 100%;
 `;
 
 export const NavLogo = styled(Link)`
+  font-family: "Abril Fatface", cursive;
   color: #c8e7ff;
+  text-shadow: 2px 2px 5px #f72585;
+  padding: 5px 10px;
   display: flex;
-  justify-self: flex-start;
+  justify-self: space-between;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.5rem;
   align-items: center;
-  margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -46,11 +45,11 @@ export const NavLogo = styled(Link)`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
-    display: block;
-    postion: absolute;
-    top: 0;
-    right: 0;
+  @media screen and (max-width: 420px) {
+    display: flex;
+    postion: fixed;
+    top: 15px;
+    right: 20px;
     transform: translate (-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -60,12 +59,13 @@ export const MobileIcon = styled.div`
 
 export const NavMenu = styled.ul`
   display: flex;
+  justify-content: flex-end;
+  justify-self: flex-end;
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -10px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 420px) {
     display: none;
   }
 `;
@@ -78,14 +78,16 @@ export const NavLinks = styled(Link)`
   color: #b4b8ee;
   background: rgb(39, 38, 64);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
 
-  &.active {
-    border-bottom: 3px solid #c8e7ff;
+  &:hover {
+    color: #f72585;
+    font-size: 1.2rem;
+    transition: 0.2s ease-in-out;
   }
 `;

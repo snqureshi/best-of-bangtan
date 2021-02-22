@@ -30,7 +30,6 @@ function App() {
   return (
     <div className="App">
       <Header toggleNav={toggleNav} />
-      {/* <Burger open={open} setOpen={setOpen} /> */}
       <Sidebar isOpen={isOpen} toggleNav={toggleNav} />
       <Route exact path="/">
         <Home songs={songs} />

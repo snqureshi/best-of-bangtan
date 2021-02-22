@@ -20,7 +20,7 @@ export const SidebarContainer = styled.div`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #fff;
+  color: #f72585;
 `;
 
 export const Icon = styled.div`
@@ -59,7 +59,7 @@ export const SidebarLink = styled(Link)`
   cursor: pointer;
 
   &:hover {
-    color: #01bf71;
+    color: #7209b7;
     transition: 0.2s ease-in-out;
   }
 `;

@@ -22,3 +22,10 @@ a:link {
 .home-video {
   grid-area: V;
 }
+
+@media only screen and (max-width: 375px) {
+  iframe {
+    width: 280px;
+    height: 158px;
+  }
+}
