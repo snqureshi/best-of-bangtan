@@ -75,7 +75,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: #b4b8ee;
+  color: #c8e7ff;
   background: rgb(39, 38, 64);
   display: flex;
   justify-content: space-around;
@@ -84,9 +84,12 @@ export const NavLinks = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-family: "Yeseva One", cursive;
+  font-weight: 500;
 
   &:hover {
     color: #f72585;
+    border-bottom: 1px solid white;
     font-size: 1.2rem;
     transition: 0.2s ease-in-out;
   }

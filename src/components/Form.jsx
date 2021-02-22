@@ -160,7 +160,7 @@ export default function Form(props) {
             />
           </div>
           <button className="form-button" type="submit">
-            BORAHAE
+            Submit💜
           </button>
         </div>
       </form>

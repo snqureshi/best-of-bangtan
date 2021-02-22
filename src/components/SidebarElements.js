@@ -59,7 +59,8 @@ export const SidebarLink = styled(Link)`
   cursor: pointer;
 
   &:hover {
-    color: #7209b7;
+    color: #f72585;
+    font-size: 1.8rem;
     transition: 0.2s ease-in-out;
   }
 `;
