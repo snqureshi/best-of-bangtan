@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.25rem;
 }
 
 .search-box {
@@ -14,6 +16,11 @@
   width: 200px;
   height: 25px;
   border-radius: 10px;
+}
+.search-box:hover {
+  background-color: #13021d;
+  transition: 0.2s ease-in-out;
+  color: white;
 }
 
 .search-results-container {
@@ -32,7 +39,16 @@
   margin: 30px 0px 10px 0px;
   text-align: center;
   font-size: 1.25rem;
-  color: #414066;
+  color: #13021d;
+  font-family: "Yeseva One", cursive;
+}
+
+.search-title:hover {
+  background-color: #5e60ce;
+  border-radius: 25px;
+  padding: 5px 0px;
+  font-size: 1.4rem;
+  transition: 0.3s ease-in-out;
 }
 
 a:link {

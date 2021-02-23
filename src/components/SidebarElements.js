@@ -57,6 +57,8 @@ export const SidebarLink = styled(Link)`
   transition: 0.2s ease-in-out;
   color: #fff;
   cursor: pointer;
+  font-family: "Poiret One";
+  text-align: center;
 
   &:hover {
     color: #f72585;

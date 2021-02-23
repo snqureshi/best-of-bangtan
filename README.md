@@ -1,12 +1,14 @@
 # Best of Bangtan
 
+[Best of Bangtan](https://best-of-bangtan.netlify.app/)
+
 ## Project Description
 
-Best-of-Bangtan is an application featuring Airtable and React build where the users will be able to get and post information as well as reviews about their new favorite BTS songs. Users will also be able to find songs by the year of release and click onto the titles to get to the information page. Users will be able to submit their own reviews as well. Since the BTS fandom is so large and diverse, there are bound to be many different takes on the same song and this app will create a community space for such discussions.
+Best-of-Bangtan is an application featuring Airtable and React build where the users will be able to get and post information as well as reviews about their new favorite BTS songs. Users will also be able to find songs by the title of the track and click onto the titles to get to the information page. Users will be able to submit their own reviews as well. Since the BTS fandom is so large and diverse, there are bound to be many different takes on the same song and this app will create a community space for such discussions.
 
 ## Wireframes
 
-The wireframes below show the homepage and information page for Best-of-Bangtan in mobile and desktop formats. In both instances you have a header with a nagivation links. On the mobile version, the navigation links will be displayed on a drop down menu, whereas in the desktop webpage, it will be displayed on interactive buttons. In both cases, on the homepage, the user will be able to view the title and video of a song and they will be able to click on a song title which will navigate to the corresponding information page populated with the title, artist, year of release, duration, stand-out lyrics, spotify link, youtube video, as well as the rating, review and author. In the mobile version, the information page will be displayed in rows where as in the desktop version, they will be displayed as both columns and rows.
+The wireframes below show the homepage and information page for Best-of-Bangtan in mobile and desktop formats. In both instances you have a header with a nagivation links. On the mobile version, the navigation links will be displayed on a full page hamburger menu, whereas in the desktop webpage, it will be displayed on interactive links. In both cases, on the homepage, the user will be able to view the title and video of a song and they will be able to click on a song title which will navigate to the corresponding information page populated with the title, artist, year of release, duration, stand-out lyrics, spotify link, youtube video, as well as the rating, review and author. In the mobile version, the information page will be displayed in rows where as in the desktop version, they will be displayed as both columns and rows.
 
 [Wireframes](https://i.imgur.com/AfUjs0F.png)
 
@@ -91,23 +93,23 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 
 ## Project Schedule
 
-| Day    | Deliverable                                                       | Status     |
-| ------ | ----------------------------------------------------------------- | ---------- |
-| Feb 16 | Proposal Approval/ Airtable Setup/ Components Creation/Psuedocode | Complete   |
-| Feb 17 | Get & Post Song Reviews from Airtable                             | Complete   |
-| Feb 18 | Filter songs by title/ Setup Routes & Links                       | Complete   |
-| Feb 19 | Work on CSS Components to match wireframes/ Media queries         | Complete   |
-| Feb 20 | Delete posts/ Compile all reviews of one song together            | Complete   |
-| Feb 21 | Feb 20th continued/ Submit cover links in form                    | Incomplete |
-| Feb 22 | Advanced CSS                                                      | Incomplete |
-| Feb 23 | Presentations                                                     | Incomplete |
+| Day    | Deliverable                                                       | Status              |
+| ------ | ----------------------------------------------------------------- | ------------------- |
+| Feb 16 | Proposal Approval/ Airtable Setup/ Components Creation/Psuedocode | Complete            |
+| Feb 17 | Get & Post Song Reviews from Airtable                             | Complete            |
+| Feb 18 | Filter songs by title/ Setup Routes & Links                       | Complete            |
+| Feb 19 | Work on CSS Components to match wireframes                        | Complete            |
+| Feb 20 | Delete posts/ Compile all reviews of one song together            | Complete/Incomplete |
+| Feb 21 | Feb 20th continued/ Submit cover links in form                    | Incomplete          |
+| Feb 22 | Media queries /Advanced CSS                                       | Complete            |
+| Feb 23 | Presentations                                                     | Incomplete          |
 
 ## Timeframes
 
 | Component                                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ----------------------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                                  |    H     |     3 hrs      |     4 hrs     |    4 hrs    |
-| Airtable setup                            |    H     |      1 hr      |     2 hrs     |    2 hrs    |
+| Airtable setup                            |    H     |      1 hr      |    1.5 hrs    |   1.5 hrs   |
 | Set up components/pseudocode              |    H     |     2 hrs      |     2 hrs     |    2 hrs    |
 | Data population on Home Page              |    H     |      3hrs      |     1 hr      |    1 hr     |
 | Data population on Information Page       |    H     |      3hrs      |     1 hr      |    1 hr     |
@@ -115,14 +117,13 @@ The wireframes below show the homepage and information page for Best-of-Bangtan 
 | Search by Title page                      |    H     |      3hrs      |     2 hr      |    2 hr     |
 | Nav Bar/Link & Route properly/Nav Bar CSS |    H     |      3hrs      |     3 hrs     |    3 hrs    |
 | Delete Button on Homepage                 |    M     |      1 hr      |    1.5hrs     |   1.5hrs    |
-| Homepage Component CSS                    |    H     |      2hrs      |     1 hr      |    1 hr     |
-| Information-page Component CSS            |    H     |      3hrs      |     1 hr      |    1 hr     |
-| Search Component CSS                      |    H     |      2hrs      |    0.5 hrs    |   0.5 hrs   |
-| Form Component CSS                        |    H     |      2hrs      |     3 hrs     |    3hrs     |
-| Compile Reviews on Information Page       |    L     |      4hrs      |               |             |
-| Allow for cover submissions               |    L     |      4hrs      |               |             |
-| Advanced CSS (Hovers/Animations)          |    M     |      3hrs      |     4hrs      |    4hrs     |
-| Total                                     |          |     41hrs      |    23 hrs     |   23 hrs    |
+| Homepage Component CSS /Media Query       |    H     |      2hrs      |     1 hr      |    1 hr     |
+| Information-page Component CSS/MQ         |    H     |      3hrs      |     3 hr      |    3 hr     |
+| Search Component CSS/MQ                   |    H     |      2hrs      |     1 hr      |    1 hr     |
+| Form Component CSS/MQ                     |    H     |      2hrs      |     3 hrs     |    3hrs     |
+| NavBar Component CSS/MQ                   |    M     |      2hrs      |     4hrs      |    4hrs     |
+| Advanced CSS (Hovers/Animations)          |    M     |      3hrs      |     2hrs      |    2hrs     |
+| Total                                     |          |     34hrs      |    32 hrs     |   32 hrs    |
 
 ## SWOT Analysis
 
