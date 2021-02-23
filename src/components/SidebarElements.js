@@ -3,6 +3,8 @@ import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 //Only show if sidebar is toggled true
+////https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
+//https://www.youtube.com/watch?v=Nl54MJDR2p8&t=0s
 
 export const SidebarContainer = styled.div`
   position: fixed;
